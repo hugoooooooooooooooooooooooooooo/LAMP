@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^datos$ datos.php
+RewriteRule ^detalles$ detalles.php
+RewriteRule ^alta$ introducir.php
+RewriteRule ^menu$ menu.php

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg,  #35478C, #7D7D7D);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #171061;
+}
